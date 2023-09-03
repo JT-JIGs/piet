@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Piet</title>
+        <style>
+            body{
+                background-color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: 130px 3px 80px 50px;
+                grid-template-rows: 150px 5px 80px 130px 20px ;
+                background-color: black;
+                gap: 5px;
+            }
+
+            .grid {
+                background-color: azure;
+            }
+
+            .ash {
+                background-color: #ffffff80;
+            }
+
+            .white {
+                background-color: white;
+                grid-column: span 2;
+            }
+
+            .mid {
+                background-color: whitesmoke;
+            }
+
+            .mid2 {
+                background-color: whitesmoke;
+                grid-column: span 2;
+            }
+
+            .smol2 {
+                grid-column: span 2;
+            }
+
+            .white2 {
+                background-color: white;
+                grid-row: span 2;
+            }
+
+            .white3 {
+                background-color: white;
+            }
+
+            .smol4 {
+                grid-row: span 2;
+            }
+
+            .red {
+                background-color: #ffffff80;
+                grid-row: span 2;
+            }
+
+            .ash2 {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="ash grid"></div>
+            <div class="smol grid"></div>
+            <div class="white grid"></div>
+            <div class="smol1 grid"></div>
+            <div class="box grid"></div>
+            <div class="smol2 grid"></div>
+            <div class="mid grid"></div>
+            <div class="smol3 grid"></div>
+            <div class="mid2 grid"></div>
+            <div class="white2 grid"></div>
+            <div class="smol4 grid"></div>
+            <div class="white3 grid"></div>
+            <div class="red grid"></div>
+            <div class="ash2 grid"></div>
+        </div>
+    </body>
+
+</html>
